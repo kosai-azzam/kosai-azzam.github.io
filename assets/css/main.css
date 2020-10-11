@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+.formation-title{
+	font-style: italic;
+	font-weight: bold;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -1758,7 +1763,20 @@ input, select, textarea {
 		border-radius: 3em;
 		font-weight: 400;
 	}
-
+	.cv-button{
+		width: 200px !important;
+		height: 80px !important;
+		background-color: transparent !important;
+		font-weight: bold !important;
+		color: white !important;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		display: inline-block;
+	}
+	.fa-download{
+		display:block;
+	}
+	
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -2001,6 +2019,10 @@ input, select, textarea {
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
+	}
+
+	.style2 > header > h2 {
+			font-size: 50px ;
 	}
 
 		#header header {
@@ -2505,7 +2527,8 @@ input, select, textarea {
 				width: 100%;
 				max-width: 320px;
 			}
-
+			
+			
 		/* Box */
 
 			.box {
